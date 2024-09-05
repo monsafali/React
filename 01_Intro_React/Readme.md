@@ -92,6 +92,13 @@ Props are the information that you pass to a Jsx tag.
 
 
 
+Install React Developer Tools
+
+
+
+
+
+
 
 
 
