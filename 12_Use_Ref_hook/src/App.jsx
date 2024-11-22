@@ -37,8 +37,7 @@ import { useRef } from "react";
 import { useState } from "react";
 
 const App = () => {
-  let timerRef = useRef(null);
-  const [time, setTime] = useState(0);
+  let timerRef = useRef(null);https://chatg
   function startTimer() {
     timerRef.current = setInterval(() => {
       setTime((time) => time + 1);

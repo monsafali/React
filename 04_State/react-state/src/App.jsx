@@ -1,16 +1,15 @@
+import "./App.css";
+import Counter from "./Counter";
+import LikeButton from "./LikeButton";
 
-import './App.css'
-import Counter from './Counter'
-import LikeButton from './LikeButton'
-
-function App(){
+function App() {
   return (
     <>
-    <h4>State in React</h4>
-    {/* <LikeButton/> */}
-    <Counter/>
+      <h4>State in React</h4>
+      <LikeButton />
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
