@@ -1,0 +1,27 @@
+extenstion
+auto rename tag
+
+
+
+fake api server
+
+npm i json-server
+
+go packge.json file and add this on script
+
+"server": "json-server --watch data/questions.json --port 3001"
+note: you must have a folder & file.json on the same hirarcy level of the package.json file
+
+
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+}
+
+you should have the desing of file like this
+npm run server
