@@ -22,3 +22,8 @@ if you want to create a global class that accessible from any of the location of
 :global(.test) {
   background-color: red;
 }
+
+
+if page not opening on ctr + click then use this 
+open setting
+Editor: Go To Definition
