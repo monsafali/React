@@ -51,7 +51,6 @@ function Form() {
           value={notes}
         />
       </div>
-
       <div className={styles.buttons}>
         <Button type="primary">Add</Button>
 
@@ -59,7 +58,6 @@ function Form() {
           type="back"
           onClick={(e) => {
             e.preventDefault();
-            console.log("Navigating back...");
             navigate(-1);
           }}
         >
